@@ -15,12 +15,6 @@ Deployed via Netlify: https://forkify-gintare.netlify.app/
 
 # Scripts:
 
-Open your terminal and navigate to your `start` folder. Install dependencies with
+Open your terminal and navigate to your `start` folder. Install dependencies with `npm install` and type `npm start` to start your webpack server and begin development.
 
-$ npm install
-and type
-
-$ npm start
-to start your webpack server and begin development.
-
-Type $ npm build to package your production code.
+Type `npm build` to package your production code.
