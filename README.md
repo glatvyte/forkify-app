@@ -6,14 +6,21 @@ Deployed via Netlify: https://forkify-gintare.netlify.app/
 
 - Search recipe;
 - Bookmark recipe;
-- Change serving size
+- Change serving size.
+
+# API Key access:
+
+- Generate your API Key: https://forkify-api.herokuapp.com/v2 by clicking on a button `Generate your API key`;
+- Create .env file in root folder and place your generated API Key there.
 
 # Scripts:
 
-Run webpack in development mode:
+Open your terminal and navigate to your `start` folder. Install dependencies with
 
-$ npm run dev
+$ npm install
+and type
 
-Run webpack in production mode:
+$ npm start
+to start your webpack server and begin development.
 
-$ npm run build
+Type $ npm build to package your production code.
